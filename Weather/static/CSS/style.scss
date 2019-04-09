@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+$back : aliceblue;
+$color-blocks: #DCFFFD;
+$font: Helvetica, sans-serif;
+$font-title: 24px;
+$font-color-title: white;
+$border-title: 15px 15px;
+html, body{
+    height: 100%;
+}
+body{ 
+    font-family: $font;
+}
+.nublado-fim-de-tarde{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    z-index: -10;
+}
+main{
+    height:800px;
+}
+#header {
+    width:40%;
+    margin: 0 auto;
+    border-bottom-right-radius: 50px;
+    color:$font-color-title;
+}
+.box-top{
+    margin-top: 5px;
+}
+.top-navbar{
+    opacity: 0.3;
+    background-color: $color-blocks;
+    -webkit-border-radius: $border-title;
+    -moz-border-radius: $border-title;
+    border-radius: $border-title;
+    -webkit-box-shadow: inset 1px 1px 3px 2px rgba(0,0,0,0.33);
+    -moz-box-shadow: inset 1px 1px 3px 2px rgba(0,0,0,0.33);
+    box-shadow: inset 1px 1px 3px 2px rgba(0,0,0,0.33);
+}
+.top-navbar h1{
+    margin-top: 4px;
+    color:#333;;
+    border-radius: $border-title;
+    width: 100%;
+    text-align: center;
+    font-size: $font-title;
+}
+.block_temp{
+    margin-top: 85px;
+    text-align: center;
+    color:#f8f8f8;
+}
+.temp{
+    opacity: 0.8;
+    font-size: 85px;
+    padding-left: 10px;
+}
+.temp_desc{
+    font-size:20px;
+    text-transform: uppercase;
+}
+.block_note{
+    opacity: 0.4;
+    position: relative;
+    top: 15%;
+    background-color: $color-blocks;
+    width: 650px;
+    height: 150px;
+    margin:0 auto;
+    border-radius: 2px;
+}
+.block_note p{
+    font-size: 19px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    margin: 4px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+}
